@@ -1,0 +1,82 @@
+header {
+    padding-bottom: 0;
+}
+.logo {
+    display: inline-block;
+    height: 128px;
+    width : 256px;
+    background-size:cover;
+    background: url("http://placekitten.com/256/128") left center;
+
+    color: rgba(255, 255, 255, .85);
+    position: relative;
+    margin: 0px 0px;
+}
+
+.logo h5{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.main {
+    background-size: cover;
+    background: url("https://placekitten.com/1680/800") left center;
+
+    padding: 200px 0px;
+    text-align: center;
+    color: rgba(255, 255, 255, .85);
+    position: relative;
+}
+
+.main button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main #left-change-button {
+    left: 0px;
+}
+
+.main #right-change-button {
+    right: 0px;
+}
+
+.about {
+    padding: 80px 100px 40px;
+    overflow: hidden;
+}
+
+.about img {
+    float: right;
+    margin-left: 100px;
+}
+
+.more {
+    padding: 40px 100px;
+    text-align: center;
+}
+
+.card-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    text-align: left;
+    padding: 50px 0;
+}
+
+.card {
+    display: inline-block;
+    flex-basis: 360px;
+}
+
+.card-content {
+    padding: 20px 20px;
+}
+
+footer {
+    padding: 40px 50px;
+    background-color: pink;
+}
+
